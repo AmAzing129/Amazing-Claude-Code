@@ -15,3 +15,8 @@ https://www.anthropic.com/claude-code
 
 - [ ] 目前使用 Snipaster 直接粘贴不了
 - 本地文件可以直接拖拽进去
+
+### MCP
+
+- [Figma](https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Dev-Mode-MCP-Server)
+  `claude mcp add --transport sse figma-dev-mode-mcp-server http://127.0.0.1:3845/sse`
