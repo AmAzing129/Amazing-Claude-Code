@@ -1,10 +1,21 @@
-# Claude-Code-Best-Practices
-
-## 版本 1.0.21
+# Claude-Code-Best-Practices v1.0.21
 
 https://www.anthropic.com/claude-code
 
+## 开始使用
+
+- 安装到 ~/.claude/local/claude 获取自动更新
 - 集成到 IDE 中 https://docs.anthropic.com/en/docs/claude-code/ide-integrations
+- 价格：Token 按量计费或者 [Max](https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage)
+
+### 概念
+- message 一条发送给 Claude 的消息
+- conversation 在不清空上下文或重启终端情况下的持续对话
+- session 从某一时刻向 Claude 发送的第一条消息开始，持续 5 小时。在这 5 小时内再发送任何消息都算作同一个会话。5 小时会重置
+
+## 对话
+
+- `/clear` 新开一个对话，释放上下文
 
 ### [对话历史管理](https://docs.anthropic.com/en/docs/claude-code/tutorials#resume-previous-conversations)
 
@@ -30,4 +41,4 @@ https://www.anthropic.com/claude-code
 
 ### [创建自定义命令](https://docs.anthropic.com/en/docs/claude-code/tutorials#create-custom-slash-commands)
 
-- 相当于团队共享提示词
+- 把常用消息封装为一个指令，且以代码库为单位与其他成员共享
