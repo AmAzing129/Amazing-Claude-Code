@@ -16,7 +16,15 @@ https://www.anthropic.com/claude-code
 - [ ] 目前使用 Snipaster 直接粘贴不了
 - 本地文件可以直接拖拽进去
 
+### 长对话
+
+- `/compact [instructions]` 根据指令阶段性总结
+
 ### MCP
 
 - [Figma](https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Dev-Mode-MCP-Server)
   `claude mcp add --transport sse figma-dev-mode-mcp-server http://127.0.0.1:3845/sse`
+
+### [创建自定义命令](https://docs.anthropic.com/en/docs/claude-code/tutorials#create-custom-slash-commands)
+
+- 相当于团队共享提示词
