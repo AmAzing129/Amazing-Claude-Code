@@ -41,4 +41,4 @@ https://www.anthropic.com/claude-code
 
 ### [创建自定义命令](https://docs.anthropic.com/en/docs/claude-code/tutorials#create-custom-slash-commands)
 
-- 把常用消息封装为一个指令，且以代码库为单位与其他成员共享
+- 把常用消息封装为一个指令，可以个人使用，或者仓库级别团队共享。
