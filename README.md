@@ -1,4 +1,4 @@
-# Claude-Code-Best-Practices v1.0.21
+# Claude-Code-Best-Practices v1.0.22
 
 https://www.anthropic.com/claude-code
 
@@ -38,7 +38,7 @@ https://www.anthropic.com/claude-code
 ### 长对话流程管理
 
 - `/compact [instructions]` 根据指令阶段性总结
-- 双击 ESC 可以跳转到某一条消息，并且 fork 一个新对话出来
+- 双击 ESC 查看消息历史，可以跳转到某一条消息，并且 fork 一个新对话出来
 
 ### MCP
 
