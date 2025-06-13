@@ -8,16 +8,19 @@ https://www.anthropic.com/claude-code
 - 集成到 IDE 中 https://docs.anthropic.com/en/docs/claude-code/ide-integrations
 - 价格：Token 按量计费或者 [Max](https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage)
 
-### 概念
+## 概念
 - **message** 一条发送给 Claude 的消息
 - **conversation** 在不清空上下文或重启终端情况下的持续对话
 - **session**: A "session" starts with your first message to Claude and lasts for 5 hours.
 
   从某一时刻向 Claude 发送的第一条消息开始，持续 5 小时。在这 5 小时内再发送任何消息都算作同一个会话。5 小时会重置
 
-### 使用习惯
+## 使用习惯
 - Plan your work around the 5-hour reset period 以 5 小时为工作周期。刚好对应上午、下午、晚上 
 - [应对限额的最佳实践](https://support.anthropic.com/en/articles/9797557-usage-limit-best-practices)
+
+## 终端
+- 退出终端 `/exit` `/quit` 或者两次 `Ctrl + C`
 
 ## 对话
 
