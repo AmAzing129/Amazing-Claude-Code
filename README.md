@@ -25,7 +25,7 @@ https://github.com/anthropics/claude-code
 ## 终端
 - 退出终端 `/exit` `/quit` 或者两次 `Ctrl + C`
 
-## 对话
+## Conversation 对话
 
 - `/clear` 新开一个对话，释放上下文
 
@@ -34,11 +34,12 @@ https://github.com/anthropics/claude-code
 如果重启了终端:
 
 - `claude --continue` 直接恢复最近一次对话
-- `claude --resume` 可以查看对话历史 
+- `claude --resume` 可以查看对话历史
+  
+  对话历史有三栏，Modified, Created, Messages Summary，按照修改时间排序。如果选择某个历史对话再发消息，该对话将会更新修改时间，创建时间不变。
 
 ### [使用图片](https://docs.anthropic.com/en/docs/claude-code/tutorials#work-with-images)
 
-- [ ] 目前使用 Snipaster 直接粘贴不了
 - 本地文件可以直接拖拽进去
 
 ### 长对话流程管理
@@ -57,4 +58,5 @@ https://github.com/anthropics/claude-code
 
 ### 有需求但暂不支持或未发现的功能
 
-- 希望在命令行内查看对话历史，每次需要退出去执行 `claude --resume`
+- [ ] 希望在命令行内查看对话历史，每次需要退出去执行 `claude --resume`
+- [ ] 目前使用 Snipaster 直接粘贴不了
