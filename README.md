@@ -25,11 +25,11 @@ https://github.com/anthropics/claude-code
 ## 终端
 - 退出终端 `/exit` `/quit` 或者两次 `Ctrl + C`
 
-## Conversation 对话
+## Conversation 对话管理
 
 - `/clear` 新开一个对话，释放上下文
 
-### [对话历史管理](https://docs.anthropic.com/en/docs/claude-code/tutorials#resume-previous-conversations)
+### [对话历史](https://docs.anthropic.com/en/docs/claude-code/tutorials#resume-previous-conversations)
 
 如果重启了终端:
 
@@ -38,19 +38,25 @@ https://github.com/anthropics/claude-code
   
   对话历史有三栏，Modified, Created, Messages Summary，按照修改时间排序。如果选择某个历史对话再发消息，该对话将会更新修改时间，创建时间不变。
 
-### [使用图片](https://docs.anthropic.com/en/docs/claude-code/tutorials#work-with-images)
-
-- 本地文件可以直接拖拽进去
-
 ### 长对话流程管理
 
 - `/compact [instructions]` 根据指令阶段性总结
 - 双击 ESC 查看消息历史，可以跳转到某一条消息，并且 fork 一个新对话出来
 
+## Context 上下文管理
+
+### [Memory 记忆](https://docs.anthropic.com/en/docs/claude-code/memory)
+
+### [使用图片](https://docs.anthropic.com/en/docs/claude-code/tutorials#work-with-images)
+
+- 本地文件可以直接拖拽进去
+
 ### MCP
 
 - [Figma](https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Dev-Mode-MCP-Server)
   `claude mcp add --transport sse figma-dev-mode-mcp-server http://127.0.0.1:3845/sse`
+
+## Prompt 提示词管理
 
 ### [创建自定义命令](https://docs.anthropic.com/en/docs/claude-code/tutorials#create-custom-slash-commands)
 
