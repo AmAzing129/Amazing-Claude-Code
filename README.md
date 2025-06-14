@@ -7,6 +7,7 @@ https://www.anthropic.com/claude-code
 - 安装到 ~/.claude/local/claude 获取自动更新
 - 集成到 IDE 中 https://docs.anthropic.com/en/docs/claude-code/ide-integrations
 - 价格：Token 按量计费或者 [Max](https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage)
+- 建议：不定期使用采用 Token，定期使用 Pro 会更优惠，深度使用 Max 用量足够
 
 ## 概念
 - **message** 一条发送给 Claude 的消息
@@ -51,3 +52,7 @@ https://www.anthropic.com/claude-code
 ### [创建自定义命令](https://docs.anthropic.com/en/docs/claude-code/tutorials#create-custom-slash-commands)
 
 - 把常用消息封装为一个指令，可以个人使用，或者仓库级别团队共享。
+
+### 有需求但暂不支持或未发现的功能
+
+- 希望在命令行内查看对话历史，每次需要退出去执行 `claude --resume`
