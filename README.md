@@ -2,6 +2,8 @@
 
 https://www.anthropic.com/claude-code
 
+https://github.com/anthropics/claude-code
+
 ## 开始使用
 
 - 安装到 ~/.claude/local/claude 获取自动更新
