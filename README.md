@@ -24,6 +24,7 @@ https://github.com/anthropics/claude-code
 - [应对限额的最佳实践](https://support.anthropic.com/en/articles/9797557-usage-limit-best-practices)
 
 ## 终端
+- 在 IDE 中打开 claude `Command + ESC`
 - 退出终端 `/exit` `/quit` 或者两次 `Ctrl + C`
 
 ## Conversation 对话管理
