@@ -58,6 +58,8 @@ https://github.com/anthropics/claude-code
 - [Figma](https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Dev-Mode-MCP-Server)
   `claude mcp add --transport sse figma-dev-mode-mcp-server http://127.0.0.1:3845/sse`
 
+- [zen](https://github.com/BeehiveInnovations/zen-mcp-server)
+
 ## Prompt 提示词管理
 
 ### [创建自定义命令](https://docs.anthropic.com/en/docs/claude-code/tutorials#create-custom-slash-commands)
