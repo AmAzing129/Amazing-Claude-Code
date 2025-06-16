@@ -10,7 +10,7 @@ https://github.com/anthropics/claude-code
 - 集成到 [IDE](https://docs.anthropic.com/en/docs/claude-code/ide-integrations) 中，不必抛弃你的 Cursor，然后就会发现，你不需要切换 tab 了
   <img width="799" alt="image" src="https://github.com/user-attachments/assets/ffa95410-3c06-4766-ae2d-b6ff79ee53b3" />
 - 价格：Token 按量计费或者 [Max](https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage)
-- 建议：不定期使用采用 Token，定期使用 Pro 会更优惠，深度使用 Max 用量足够
+- 建议：不定期使用采用 Token，定期使用 Pro 会更优惠，深度使用 Max 用量足够 [查看用量](https://github.com/ryoppippi/ccusage)
 
 ## 概念
 - **message** 一条发送给 Claude 的消息
