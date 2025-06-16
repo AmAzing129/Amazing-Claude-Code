@@ -71,6 +71,13 @@ https://github.com/anthropics/claude-code
 - [ ] 希望在命令行内查看对话历史，每次需要退出去执行 `claude --resume`
 - [ ] 目前使用 Snipaster 直接粘贴不了
 
+## Claude Code 生态
+
+### 同时使用其他模型
+
+- [claude-code-router](https://github.com/musistudio/claude-code-router)
+- [zen](https://github.com/BeehiveInnovations/zen-mcp-server)
+
 ## Reference
 
 [A conversation on Claude Code](https://www.youtube.com/watch?v=Yf_1w00qIKc)
