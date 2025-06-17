@@ -1,4 +1,4 @@
-# Claude-Code-Best-Practices v1.0.22
+# Claude-Code-Best-Practices v1.0.25
 
 https://www.anthropic.com/claude-code
 
