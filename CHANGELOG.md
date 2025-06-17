@@ -1,4 +1,4 @@
-## 1.0.24
+## 1.0.25
 - Slash commands: moved "project" and "user" prefixes to descriptions
 - Slash commands: improved reliability for command discovery
 - Improved support for Ghostty
