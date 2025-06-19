@@ -1,3 +1,8 @@
+## v1.0.29
+- Streamable HTTP MCP servers are now supported
+- Remote MCP servers (SSE and HTTP) now support OAuth
+- MCP resources can now be @-mentioned
+
 ## 1.0.25
 - Slash commands: moved "project" and "user" prefixes to descriptions
 - Slash commands: improved reliability for command discovery
