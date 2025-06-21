@@ -68,7 +68,6 @@ https://github.com/anthropics/claude-code
 
 ### 有需求但暂不支持或未发现的功能
 
-- [ ] 希望在命令行内查看对话历史，每次需要退出去执行 `claude --resume`
 - [ ] 目前使用 Snipaster 直接粘贴不了
 
 ## Claude Code 生态
