@@ -1,3 +1,5 @@
+## 废弃，输入 /release-notes 可以查看
+
 ## v1.0.29
 - Streamable HTTP MCP servers are now supported
 - Remote MCP servers (SSE and HTTP) now support OAuth
