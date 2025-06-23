@@ -56,9 +56,15 @@ https://github.com/anthropics/claude-code
 
 ### [Memory 记忆](https://docs.anthropic.com/en/docs/claude-code/memory)
 
-### [使用图片](https://docs.anthropic.com/en/docs/claude-code/tutorials#work-with-images)
+- 在使用过程中，不断优化 CLAUDE.md 文件
+- 在子文件夹中，比如一个 features 下，也可以放对应的 CLAUDE.md
 
-- 本地文件可以直接拖拽进去
+  Claude will also discover CLAUDE.md nested in subtrees under your current working directory. Instead of loading them at launch, they are only included when Claude reads files in those subtrees.
+
+### 使用文件
+
+- [图片](https://docs.anthropic.com/en/docs/claude-code/tutorials#work-with-images)复制后，使用 `Ctrl + V`（不是 cmd + v）
+- 文件可以直接拖拽进去（也包括目录、图片）
 
 ### MCP
 
@@ -73,11 +79,12 @@ https://github.com/anthropics/claude-code
 
 - 把常用消息封装为一个指令，可以个人使用，或者仓库级别团队共享。
 
-### 有需求但暂不支持或未发现的功能
-
-- [ ] 目前使用 Snipaster 直接粘贴不了
-
 ## Claude Code 生态
+
+### 用量监控
+
+- [ccusage](https://github.com/ryoppippi/ccusage)
+- [Claude-Code-Usage-Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor)
 
 ### 同时使用其他模型
 
