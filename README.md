@@ -31,6 +31,13 @@ https://github.com/anthropics/claude-code
 
 - `/clear` 新开一个对话，释放上下文
 
+### 对话模式
+
+使用 `shift + tab` 切换，有三种模式
+- auto-accept edits on 自动接受更改
+- plan mode on 开始前会先提供修改计划
+- 正常模式，会一步一步询问
+
 ### [对话历史](https://docs.anthropic.com/en/docs/claude-code/tutorials#resume-previous-conversations)
 
 如果重启了终端:
