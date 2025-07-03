@@ -1,4 +1,4 @@
-# Amazing-Claude-Code v1.0.25
+# Amazing-Claude-Code v1.0.41
 
 https://www.anthropic.com/claude-code
 
@@ -85,6 +85,7 @@ https://github.com/anthropics/claude-code
 
 - [ccusage](https://github.com/ryoppippi/ccusage)
 - [Claude-Code-Usage-Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor)
+- [ccseva](https://github.com/Iamshankhadeep/ccseva)
 
 ### 同时使用其他模型
 
