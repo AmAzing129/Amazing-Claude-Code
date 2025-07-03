@@ -95,3 +95,5 @@ https://github.com/anthropics/claude-code
 ## Reference
 
 [A conversation on Claude Code](https://www.youtube.com/watch?v=Yf_1w00qIKc)
+
+[Claude Code Guide](https://github.com/zebbern/claude-code-guide)
